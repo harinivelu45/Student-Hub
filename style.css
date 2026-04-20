@@ -115,3 +115,19 @@ li {
 .dark .navbar a {
     color: #ffffff;
 }
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#progressChart {
+    max-width: 250px;
+    margin: 20px auto;
+}
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
