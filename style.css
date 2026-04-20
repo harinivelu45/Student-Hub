@@ -1,0 +1,117 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+
+    background: linear-gradient(-45deg, #4facfe, #00f2fe, #43e97b);
+    background-size: 400% 400%;
+    animation: bg 10s infinite;
+}
+
+@keyframes bg {
+    0% {background-position:0%}
+    50% {background-position:100%}
+    100% {background-position:0%}
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.85); /* darker */
+    color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+/* Menu items */
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+/* Links */
+.navbar a {
+    color: #ffffff;   /* pure white */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Hover */
+.navbar a:hover {
+    background: #00f2fe;
+    color: black;
+}
+.card {
+    background:rgba(255,255,255,0.2);
+    backdrop-filter:blur(10px);
+    width:350px;
+    margin:30px auto;
+    padding:20px;
+    border-radius:15px;
+}
+
+input, button {
+    padding:10px;
+    margin:5px;
+    border-radius:5px;
+    border:none;
+}
+
+button {
+    background:#4facfe;
+    color:white;
+}
+
+li {
+    display:flex;
+    justify-content:space-between;
+    background:#eee;
+    margin:5px;
+    padding:10px;
+}
+
+#progressFill {
+    height:10px;
+    background:green;
+    width:0%;
+}
+
+.progress-bar {
+    background:#ccc;
+    height:10px;
+}
+
+#toast {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#4facfe;
+    color:white;
+    padding:10px;
+    opacity:0;
+}
+
+#toast.show {
+    opacity:1;
+}
+
+/* Dark */
+.dark {
+    background:#121212;
+    color:white;
+}
+.dark .navbar {
+    background: rgba(0,0,0,0.95);
+}
+
+.dark .navbar a {
+    color: #ffffff;
+}

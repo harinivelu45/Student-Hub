@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Hub</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<nav class="navbar">
+    <h2>Student Hub</h2>
+    <ul>
+        <li><a href="#todo">To-Do</a></li>
+        <li><a href="#timerSection">Timer</a></li>
+        <li><a href="#gpaSection">GPA</a></li>
+    </ul>
+    <button id="darkModeToggle">🌙</button>
+</nav>
+
+<div class="container">
+
+<h1>📚 Student Utility Hub</h1>
+
+<!-- TO-DO -->
+<div class="card" id="todo">
+    <h2>📝 To-Do List</h2>
+
+    <input type="text" id="search" placeholder="Search task...">
+
+    <div>
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <input type="date" id="dueDate">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <p id="progressText"></p>
+    <div class="progress-bar">
+        <div id="progressFill"></div>
+    </div>
+
+    <canvas id="progressChart"></canvas>
+
+    <ul id="taskList"></ul>
+</div>
+
+<!-- TIMER -->
+<div class="card" id="timerSection">
+    <h2>⏱️ Timer</h2>
+    <h1 id="timer">25:00</h1>
+    <button id="startBtn">Start</button>
+    <button id="resetBtn">Reset</button>
+</div>
+
+<!-- GPA -->
+<div class="card" id="gpaSection">
+    <h2>📊 GPA Calculator</h2>
+
+    <div id="subjects">
+        <input type="number" class="mark" placeholder="Subject 1">
+    </div>
+
+    <button onclick="addSubject()">➕ Add Subject</button>
+    <button onclick="removeSubject()">➖ Remove</button>
+    <br><br>
+
+    <button id="calcBtn">Calculate GPA</button>
+    <h3 id="gpaResult"></h3>
+</div>
+
+</div>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
