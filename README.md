@@ -65,7 +65,7 @@ Student-Hub/
 
 
 ### ⏱️ Timer
-![Timer]()
+![Timer](Screenshot (38).png)
 
 ### 📊 GPA
 ![GPA](Screenshot (39).png)
