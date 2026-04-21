@@ -55,22 +55,22 @@ Student-Hub/
 │── script.js
 
 ---
-
 ## 📸 Screenshots
 
-
-
 ### 📝 To-Do
-![Todo](Screenshot (37).png)
-
+![Todo](todo.png)
 
 ### ⏱️ Timer
-![Timer](Screenshot (38).png)
+![Timer](timer.png)
 
 ### 📊 GPA
-![GPA](Screenshot (39).png)
+![GPA](gpa.png)
 
----
+
+
+
+
+----
 
 ## 💡 Future Improvements
 
