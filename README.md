@@ -67,7 +67,7 @@ Student-Hub/
 ![Timer](Screenshot (38).png)
 
 ### 📊 GPA
-![GPA](Screenahot (39).png)
+![GPA](Screenshot (39).png)
 
 ---
 
