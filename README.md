@@ -58,7 +58,16 @@ Student-Hub/
 
 ## 📸 Screenshots
 
-*(You can add screenshots here later)*
+
+
+### 📝 To-Do
+![Todo](Screenshot (37).png)
+
+### ⏱️ Timer
+![Timer](Screenshot (38).png)
+
+### 📊 GPA
+![GPA](Screenahot (39).png)
 
 ---
 
